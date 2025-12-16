@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="facebook-domain-verification" content="abhsk37pb106nrmt5ti395vje5w326" />
-  <title>Kiatma - Soluciones Digitales Innovadoras</title>
+  <meta name="facebook-domain-verification" content="8cs0x1bvcn3vbqkvkga7lp2p9r607z" />
+  <title>Kiatma - Brillando con Estilo</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;600;700;800;900&family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -18,14 +18,18 @@
       font-family: 'Poppins', sans-serif;
     }
 
-    /* Kiatma Modern Tech Theme */
-    .power-bg {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #334155 50%, #f97316 75%, #ea580c 100%);
+    .fredoka {
+      font-family: 'Fredoka', sans-serif;
+    }
+
+    /* Kiatma Blue-Teal Theme */
+    .shine-bg {
+      background: linear-gradient(135deg, #0EA5E9 0%, #06B6D4 25%, #14B8A6 50%, #2DD4BF 75%, #A7F3D0 100%);
       position: relative;
       overflow: hidden;
     }
     
-    .power-bg::before {
+    .shine-bg::before {
       content: '';
       position: absolute;
       top: 0;
@@ -33,100 +37,100 @@
       right: 0;
       bottom: 0;
       background-image: 
-        radial-gradient(circle at 20% 50%, rgba(249, 115, 22, 0.3) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(234, 88, 12, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 20% 50%, rgba(14, 165, 233, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(6, 182, 212, 0.3) 0%, transparent 50%),
         radial-gradient(circle at 40% 80%, rgba(20, 184, 166, 0.2) 0%, transparent 50%);
       opacity: 0.8;
       z-index: 1;
     }
     
-    .power-content {
+    .shine-content {
       position: relative;
       z-index: 2;
     }
     
-    /* Tech colors without glow */
-    .text-blue {
-      color: #f97316;
+    /* Blue-Teal color scheme */
+    .text-purple {
+      color: #0EA5E9;
     }
     
-    .text-light-blue {
-      color: #ea580c;
+    .text-light-purple {
+      color: #06B6D4;
     }
     
-    .text-sky {
-      color: #14b8a6;
+    .text-pink {
+      color: #14B8A6;
     }
     
-    .text-black-title {
-      color: #000000;
+    .text-white-title {
+      color: #FFFFFF;
       font-weight: 900;
     }
 
-    /* Modern cards */
-    .power-card {
-      background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(249, 115, 22, 0.2));
-      border: 2px solid #f97316;
+    /* Modern cards with sparkle effect */
+    .shine-card {
+      background: linear-gradient(145deg, rgba(14, 165, 233, 0.9), rgba(6, 182, 212, 0.2));
+      border: 2px solid #0EA5E9;
       backdrop-filter: blur(20px);
       box-shadow: 
-        0 0 30px rgba(249, 115, 22, 0.3),
-        inset 0 0 30px rgba(249, 115, 22, 0.1);
+        0 0 30px rgba(14, 165, 233, 0.3),
+        inset 0 0 30px rgba(14, 165, 233, 0.1);
       transition: all 0.4s ease;
       position: relative;
       overflow: hidden;
     }
     
-    .power-card::before {
+    .shine-card::before {
       content: '';
       position: absolute;
       top: -2px;
       left: -2px;
       right: -2px;
       bottom: -2px;
-      background: linear-gradient(45deg, #f97316, #ea580c, #14b8a6, #f97316);
+      background: linear-gradient(45deg, #0EA5E9, #06B6D4, #14B8A6, #0EA5E9);
       background-size: 400% 400%;
-      animation: oceanGlow 3s ease infinite;
+      animation: sparkleGlow 3s ease infinite;
       z-index: -1;
       border-radius: inherit;
     }
     
-    .power-card:hover {
+    .shine-card:hover {
       transform: translateY(-15px) scale(1.03);
       box-shadow: 
-        0 25px 50px rgba(249, 115, 22, 0.4),
-        0 0 40px rgba(234, 88, 12, 0.3);
-      border-color: #ea580c;
+        0 25px 50px rgba(14, 165, 233, 0.4),
+        0 0 40px rgba(6, 182, 212, 0.3);
+      border-color: #06B6D4;
     }
 
-    @keyframes oceanGlow {
+    @keyframes sparkleGlow {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
     }
 
-    /* Modern geometric shapes */
-    .power-icon {
+    /* Sparkle icons */
+    .shine-icon {
       width: 70px;
       height: 70px;
-      background: linear-gradient(45deg, #f97316, #ea580c);
+      background: linear-gradient(45deg, #0EA5E9, #06B6D4);
       border-radius: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
-      box-shadow: 0 10px 30px rgba(249, 115, 22, 0.3);
+      box-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
     }
 
-    /* Grid pattern */
-    .grid-bg {
+    /* Fun grid pattern */
+    .sparkle-bg {
       background-image: 
-        linear-gradient(90deg, rgba(249, 115, 22, 0.1) 1px, transparent 1px),
-        linear-gradient(0deg, rgba(249, 115, 22, 0.1) 1px, transparent 1px);
+        linear-gradient(90deg, rgba(14, 165, 233, 0.1) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(14, 165, 233, 0.1) 1px, transparent 1px);
       background-size: 40px 40px;
       position: relative;
     }
     
-    .grid-bg::after {
+    .sparkle-bg::after {
       content: '';
       position: absolute;
       top: 0;
@@ -134,53 +138,53 @@
       right: 0;
       bottom: 0;
       background: 
-        radial-gradient(circle at 25% 25%, rgba(234, 88, 12, 0.2) 2px, transparent 2px),
-        radial-gradient(circle at 75% 75%, rgba(249, 115, 22, 0.2) 2px, transparent 2px);
+        radial-gradient(circle at 25% 25%, rgba(6, 182, 212, 0.2) 2px, transparent 2px),
+        radial-gradient(circle at 75% 75%, rgba(14, 165, 233, 0.2) 2px, transparent 2px);
       background-size: 40px 40px;
     }
 
-    /* Smooth animations */
-    .float-animation {
-      animation: float 6s ease-in-out infinite;
+    /* Bouncy animations */
+    .bounce-animation {
+      animation: bounce 2s ease-in-out infinite;
     }
     
-    @keyframes float {
+    @keyframes bounce {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-20px); }
     }
 
-    /* Pulse animation */
-    .pulse-blue {
-      animation: pulseTech 2s ease-in-out infinite;
+    /* Sparkle pulse */
+    .pulse-purple {
+      animation: pulseSparkle 2s ease-in-out infinite;
     }
     
-    @keyframes pulseTech {
+    @keyframes pulseSparkle {
       0%, 100% { 
-        box-shadow: 0 0 20px #f97316, 0 0 40px #f97316;
-        border-color: #f97316;
+        box-shadow: 0 0 20px #0EA5E9, 0 0 40px #0EA5E9;
+        border-color: #0EA5E9;
       }
       50% { 
-        box-shadow: 0 0 30px #ea580c, 0 0 60px #ea580c;
-        border-color: #ea580c;
+        box-shadow: 0 0 30px #06B6D4, 0 0 60px #06B6D4;
+        border-color: #06B6D4;
       }
     }
 
-    /* Modern panels */
-    .modern-panel {
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(249, 115, 22, 0.3) 100%);
-      border-left: 4px solid #f97316;
+    /* Fun panels */
+    .fun-panel {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.8) 0%, rgba(6, 182, 212, 0.3) 100%);
+      border-left: 4px solid #0EA5E9;
       backdrop-filter: blur(10px);
       transition: all 0.3s ease;
     }
     
-    .modern-panel:hover {
-      transform: translateX(10px);
-      border-left-color: #ea580c;
-      box-shadow: 0 10px 30px rgba(249, 115, 22, 0.2);
+    .fun-panel:hover {
+      transform: translateX(10px) rotate(1deg);
+      border-left-color: #06B6D4;
+      box-shadow: 0 10px 30px rgba(14, 165, 233, 0.2);
     }
 
-    /* Wave effect */
-    .wave-bg {
+    /* Rainbow wave effect */
+    .rainbow-wave {
       position: absolute;
       top: 0;
       left: 0;
@@ -190,12 +194,12 @@
         90deg,
         transparent,
         transparent 98px,
-        rgba(249, 115, 22, 0.05) 100px
+        rgba(14, 165, 233, 0.05) 100px
       );
-      animation: waveFlow 15s linear infinite;
+      animation: rainbowFlow 15s linear infinite;
     }
     
-    @keyframes waveFlow {
+    @keyframes rainbowFlow {
       0% { transform: translateX(-100%); }
       100% { transform: translateX(100%); }
     }
@@ -206,37 +210,37 @@
     }
     
     ::-webkit-scrollbar-track {
-      background: #1a1a2e;
+      background: #0EA5E9;
     }
     
     ::-webkit-scrollbar-thumb {
-      background: linear-gradient(to bottom, #f97316, #ea580c);
+      background: linear-gradient(to bottom, #0EA5E9, #06B6D4);
       border-radius: 5px;
     }
 
-    /* WhatsApp button modern style */
-    .whatsapp-modern {
-      background: linear-gradient(135deg, #25d366, #128c7e, #f97316);
-      animation: modernPulse 2s infinite;
-      border: 2px solid #f97316;
-      box-shadow: 0 0 25px rgba(249, 115, 22, 0.5);
+    /* WhatsApp button with sparkle */
+    .whatsapp-sparkle {
+      background: linear-gradient(135deg, #25d366, #128c7e, #0EA5E9);
+      animation: sparklePulse 2s infinite;
+      border: 2px solid #0EA5E9;
+      box-shadow: 0 0 25px rgba(14, 165, 233, 0.5);
     }
     
-    @keyframes modernPulse {
+    @keyframes sparklePulse {
       0%, 100% {
         transform: scale(1);
-        box-shadow: 0 0 25px rgba(249, 115, 22, 0.5);
+        box-shadow: 0 0 25px rgba(14, 165, 233, 0.5);
       }
       50% {
         transform: scale(1.05);
-        box-shadow: 0 0 35px rgba(234, 88, 12, 0.7);
+        box-shadow: 0 0 35px rgba(6, 182, 212, 0.7);
       }
     }
 
-    /* Typing effect */
-    .typing-effect {
+    /* Fun typing effect */
+    .fun-typing {
       overflow: hidden;
-      border-right: 3px solid #f97316;
+      border-right: 3px solid #0EA5E9;
       white-space: nowrap;
       animation: typing 4s steps(50, end), blink-cursor 0.75s step-end infinite;
     }
@@ -248,18 +252,18 @@
     
     @keyframes blink-cursor {
       from, to { border-color: transparent; }
-      50% { border-color: #f97316; }
+      50% { border-color: #0EA5E9; }
     }
 
-    /* Button hover effects */
-    .btn-power {
-      background: linear-gradient(135deg, #f97316, #ea580c);
+    /* Fun button effects */
+    .btn-shine {
+      background: linear-gradient(135deg, #0EA5E9, #06B6D4);
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
     }
     
-    .btn-power::before {
+    .btn-shine::before {
       content: '';
       position: absolute;
       top: 0;
@@ -270,54 +274,86 @@
       transition: left 0.5s;
     }
     
-    .btn-power:hover::before {
+    .btn-shine:hover::before {
       left: 100%;
     }
     
-    .btn-power:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 15px 35px rgba(249, 115, 22, 0.4);
+    .btn-shine:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 15px 35px rgba(14, 165, 233, 0.4);
+    }
+
+    /* Floating sparkles */
+    .sparkle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: #F3E8FF;
+      border-radius: 50%;
+      animation: sparkleFloat 3s ease-in-out infinite;
+    }
+
+    @keyframes sparkleFloat {
+      0%, 100% { 
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.7;
+      }
+      50% { 
+        transform: translateY(-20px) rotate(180deg);
+        opacity: 1;
+      }
+    }
+
+    /* Fun emoji animations */
+    .emoji-bounce {
+      animation: emojiBounce 1.5s ease-in-out infinite;
+    }
+
+    @keyframes emojiBounce {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      25% { transform: scale(1.1) rotate(5deg); }
+      75% { transform: scale(1.1) rotate(-5deg); }
     }
   </style>
 </head>
 <body class="bg-slate-900 text-white overflow-x-hidden">
 
-  <!-- WAVE BACKGROUND EFFECT -->
-  <div class="wave-bg fixed inset-0 pointer-events-none z-0"></div>
+  <!-- RAINBOW WAVE BACKGROUND -->
+  <div class="rainbow-wave fixed inset-0 pointer-events-none z-0"></div>
 
-  <!-- POWER MOTIONS HEADER -->
-  <header class="power-bg min-h-screen flex items-center relative">
-    <div class="power-content w-full">
+  <!-- SPARKLE HEADER -->
+  <header class="shine-bg min-h-screen flex items-center relative">
+    <div class="shine-content w-full">
       
-      <!-- Modern Navigation -->
-      <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/90 backdrop-blur-xl border-b-2 border-orange-500">
+      <!-- Fun Navigation -->
+      <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/90 backdrop-blur-xl border-b-2 border-cyan-600">
         <div class="max-w-7xl mx-auto px-6 py-4">
           <div class="flex justify-between items-center">
             <!-- Logo -->
             <div class="flex items-center">
-              <div class="power-icon mr-4 pulse-blue">
-                <div class="text-white font-bold text-2xl">💻</div>
+              <div class="shine-icon mr-4 pulse-purple">
+                <div class="text-white font-bold text-2xl emoji-bounce">✨</div>
               </div>
-              <span class="text-2xl font-black poppins text-white">KIATMA</span>
+              <span class="text-2xl font-black fredoka text-white-title">KIATMA</span>
             </div>
             
             <!-- Menu -->
-            <ul class="hidden md:flex space-x-8 text-orange-400 font-bold poppins">
-              <li><a href="#inicio" class="hover:text-orange-300 transition duration-300 relative group">
+            <ul class="hidden md:flex space-x-8 text-cyan-400 font-bold fredoka">
+              <li><a href="#inicio" class="hover:text-cyan-600 transition duration-300 relative group">
                   INICIO
-                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-300 group-hover:w-full transition-all duration-300"></span>
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
             </a></li>
-              <li><a href="#nosotros" class="hover:text-orange-300 transition duration-300 relative group">
+              <li><a href="#nosotros" class="hover:text-cyan-600 transition duration-300 relative group">
                   NOSOTROS
-                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-300 group-hover:w-full transition-all duration-300"></span>
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
             </a></li>
-              <li><a href="#servicios" class="hover:text-orange-300 transition duration-300 relative group">
+              <li><a href="#servicios" class="hover:text-cyan-600 transition duration-300 relative group">
                   SERVICIOS
-                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-300 group-hover:w-full transition-all duration-300"></span>
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
             </a></li>
-              <li><a href="#contacto" class="hover:text-orange-300 transition duration-300 relative group">
+              <li><a href="#contacto" class="hover:text-cyan-600 transition duration-300 relative group">
                   CONTACTO
-                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-300 group-hover:w-full transition-all duration-300"></span>
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-600 group-hover:w-full transition-all duration-300"></span>
             </a></li>
           </ul>
           </div>
@@ -331,59 +367,57 @@
           <!-- Left Content -->
             <div class="text-center lg:text-left">
             <div class="mb-8">
-              <h1 class="text-7xl md:text-8xl font-black poppins float-animation mb-4">
-                <span class="text-white">KIA</span>
-                <br>
-                <span class="text-white">TMA</span>
+              <h1 class="text-7xl md:text-8xl font-black fredoka bounce-animation mb-4">
+                <span class="text-white-title">KIATMA</span>
               </h1>
-              <div class="typing-effect text-2xl md:text-3xl text-orange-400 font-bold">
-                SOLUCIONES DIGITALES INNOVADORAS
+              <div class="fun-typing text-2xl md:text-3xl text-cyan-400 font-bold">
+                BRILLANDO CON ESTILO Y DIVERSIÓN
               </div>
               </div>
               
-            <!-- Modern Stats -->
+            <!-- Fun Stats -->
             <div class="grid grid-cols-2 gap-6 mb-12">
-              <div class="power-card p-6 rounded-xl">
-                <div class="text-4xl text-blue mb-2 poppins font-black">+100</div>
-                <div class="text-gray-300">PROYECTOS</div>
+              <div class="shine-card p-6 rounded-xl">
+                <div class="text-4xl text-purple mb-2 fredoka font-black">✨</div>
+                <div class="text-gray-300">MAGIA</div>
               </div>
-              <div class="power-card p-6 rounded-xl">
-                <div class="text-4xl text-light-blue mb-2 poppins font-black">24/7</div>
-                <div class="text-gray-300">SOPORTE</div>
+              <div class="shine-card p-6 rounded-xl">
+                <div class="text-4xl text-light-purple mb-2 fredoka font-black">🎉</div>
+                <div class="text-gray-300">DIVERSIÓN</div>
               </div>
-              <div class="power-card p-6 rounded-xl">
-                <div class="text-4xl text-sky mb-2 poppins font-black">+50</div>
-                <div class="text-gray-300">CLIENTES</div>
+              <div class="shine-card p-6 rounded-xl">
+                <div class="text-4xl text-pink mb-2 fredoka font-black">💫</div>
+                <div class="text-gray-300">ESTILO</div>
               </div>
-              <div class="power-card p-6 rounded-xl">
-                <div class="text-4xl text-blue mb-2 poppins font-black">TOP</div>
-                <div class="text-gray-300">QUALITY</div>
+              <div class="shine-card p-6 rounded-xl">
+                <div class="text-4xl text-purple mb-2 fredoka font-black">🌟</div>
+                <div class="text-gray-300">BRILLO</div>
               </div>
             </div>
 
             <!-- CTA Button -->
-            <button class="btn-power px-12 py-6 rounded-xl text-xl font-bold poppins text-white border-2 border-orange-500 transition-all duration-300">
-              EXPLORAR SERVICIOS
+            <button class="btn-shine px-12 py-6 rounded-xl text-xl font-bold fredoka text-white border-2 border-cyan-600 transition-all duration-300">
+              DESCUBRIR MAGIA
             </button>
           </div>
 
-          <!-- Right Content - Modern Image -->
+          <!-- Right Content - Fun Image -->
             <div class="relative">
-            <div class="power-card p-8 rounded-2xl">
+            <div class="shine-card p-8 rounded-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2126&q=80" 
-                alt="Desarrollo web y tecnología - Kiatma" 
+                src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+                alt="Kiatma - Brillando con estilo" 
                 class="w-full h-96 object-cover rounded-lg"
               />
-              <div class="absolute inset-0 bg-gradient-to-t from-orange-500/20 via-transparent to-orange-400/20 rounded-2xl"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-cyan-600/20 via-transparent to-teal-400/20 rounded-2xl"></div>
               </div>
             
-            <!-- Floating elements -->
-            <div class="absolute -top-6 -right-6 power-icon pulse-blue">
-              <div class="text-white font-bold text-xl">💻</div>
+            <!-- Floating sparkles -->
+            <div class="absolute -top-6 -right-6 shine-icon pulse-purple">
+              <div class="text-white font-bold text-xl emoji-bounce">✨</div>
               </div>
-            <div class="absolute -bottom-6 -left-6 power-icon pulse-blue" style="animation-delay: 1s;">
-              <div class="text-white font-bold text-xl">⚙️</div>
+            <div class="absolute -bottom-6 -left-6 shine-icon pulse-purple" style="animation-delay: 1s;">
+              <div class="text-white font-bold text-xl emoji-bounce">🎨</div>
             </div>
           </div>
         </div>
@@ -391,51 +425,51 @@
     </div>
   </header>
 
-  <!-- ABOUT SECTION - MODERN GRID DESIGN -->
-  <section id="nosotros" class="grid-bg py-32 bg-slate-800 relative">
+  <!-- ABOUT SECTION - FUN GRID DESIGN -->
+  <section id="nosotros" class="sparkle-bg py-32 bg-slate-800 relative">
       <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-20">
-        <h2 class="text-6xl font-black poppins text-blue float-animation mb-8">QUIÉNES SOMOS</h2>
-        <div class="w-32 h-1 bg-gradient-to-r from-orange-400 to-orange-500 mx-auto"></div>
+        <h2 class="text-6xl font-black fredoka text-purple bounce-animation mb-8">QUIÉNES SOMOS</h2>
+        <div class="w-32 h-1 bg-gradient-to-r from-cyan-400 to-cyan-600 mx-auto"></div>
       </div>
       
-      <!-- Modern panels layout -->
+      <!-- Fun panels layout -->
       <div class="grid lg:grid-cols-3 gap-8">
         
         <!-- Panel 1 -->
-        <div class="modern-panel p-8 rounded-xl">
-          <div class="power-icon mb-6 mx-auto">
-            <div class="text-white font-bold text-2xl">🎯</div>
+        <div class="fun-panel p-8 rounded-xl">
+          <div class="shine-icon mb-6 mx-auto">
+            <div class="text-white font-bold text-2xl emoji-bounce">🎯</div>
           </div>
-          <h3 class="text-2xl font-bold poppins text-blue mb-4">MISIÓN</h3>
-          <p class="text-gray-300">Proporcionar soluciones digitales innovadoras y personalizadas que impulsen el crecimiento y la transformación digital de nuestros clientes.</p>
+          <h3 class="text-2xl font-bold fredoka text-purple mb-4">MISIÓN</h3>
+          <p class="text-gray-300">Crear experiencias únicas y divertidas que hagan brillar a cada persona, combinando creatividad, estilo y mucha diversión en todo lo que hacemos.</p>
         </div>
         
         <!-- Panel 2 -->
-        <div class="modern-panel p-8 rounded-xl">
-          <div class="power-icon mb-6 mx-auto">
-            <div class="text-white font-bold text-2xl">🚀</div>
+        <div class="fun-panel p-8 rounded-xl">
+          <div class="shine-icon mb-6 mx-auto">
+            <div class="text-white font-bold text-2xl emoji-bounce">🌈</div>
             </div>
-          <h3 class="text-2xl font-bold poppins text-light-blue mb-4">VISIÓN</h3>
-          <p class="text-gray-300">Ser la empresa líder en soluciones tecnológicas en Mar del Plata, reconocida por nuestra innovación, calidad y compromiso con la excelencia.</p>
+          <h3 class="text-2xl font-bold fredoka text-light-purple mb-4">VISIÓN</h3>
+          <p class="text-gray-300">Ser la empresa líder en crear momentos mágicos y experiencias inolvidables, donde cada cliente se sienta especial y brillante.</p>
         </div>
 
         <!-- Panel 3 -->
-        <div class="modern-panel p-8 rounded-xl">
-          <div class="power-icon mb-6 mx-auto">
-            <div class="text-white font-bold text-2xl">🌟</div>
+        <div class="fun-panel p-8 rounded-xl">
+          <div class="shine-icon mb-6 mx-auto">
+            <div class="text-white font-bold text-2xl emoji-bounce">💎</div>
           </div>
-          <h3 class="text-2xl font-bold poppins text-sky mb-4">VALORES</h3>
-          <p class="text-gray-300">Innovación, calidad, transparencia, compromiso con el cliente y excelencia técnica son los valores fundamentales de Kiatma.</p>
+          <h3 class="text-2xl font-bold fredoka text-pink mb-4">VALORES</h3>
+          <p class="text-gray-300">Creatividad sin límites, diversión auténtica, calidad excepcional y el compromiso de hacer que cada día sea especial para nuestros clientes.</p>
         </div>
       </div>
       
       <!-- Central Image -->
       <div class="flex justify-center mt-16">
-        <div class="power-card p-6 rounded-2xl">
+        <div class="shine-card p-6 rounded-2xl">
           <img 
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="Equipo de desarrollo de Kiatma" 
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+            alt="Kiatma - Equipo creativo" 
             class="w-full max-w-2xl h-64 object-cover rounded-lg"
           />
         </div>
@@ -443,297 +477,298 @@
       </div>
     </section>
 
-  <!-- SERVICES SECTION - MODERN GRID DESIGN -->
+  <!-- SERVICES SECTION - FUN GRID DESIGN -->
   <section id="servicios" class="bg-slate-900 py-32 relative">
     <div class="max-w-7xl mx-auto px-6">
       <div class="text-center mb-20">
-        <h2 class="text-6xl font-black poppins text-blue float-animation mb-8">NUESTROS SERVICIOS</h2>
-        <div class="w-32 h-1 bg-gradient-to-r from-orange-400 to-orange-500 mx-auto"></div>
+        <h2 class="text-6xl font-black fredoka text-purple bounce-animation mb-8">NUESTROS SERVICIOS</h2>
+        <div class="w-32 h-1 bg-gradient-to-r from-cyan-400 to-cyan-600 mx-auto"></div>
       </div>
       
-      <!-- Modern Grid -->
+      <!-- Fun Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         
         <!-- Service 1 -->
-        <div class="power-card p-8 rounded-2xl group">
-          <div class="power-icon mb-6">
-            <div class="text-white font-bold text-xl">🌐</div>
+        <div class="shine-card p-8 rounded-2xl group">
+          <div class="shine-icon mb-6">
+            <div class="text-white font-bold text-xl emoji-bounce">🎨</div>
             </div>
             <img 
-            src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="Desarrollo web profesional" 
+            src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+            alt="Diseño creativo y artístico" 
             class="w-full h-48 object-cover rounded-lg mb-6"
           />
-          <h3 class="text-2xl font-bold poppins text-blue mb-4">DESARROLLO WEB</h3>
-          <p class="text-gray-300 mb-4">Sitios web modernos y responsivos, desde landing pages hasta aplicaciones web complejas.</p>
-              <div class="flex items-center text-orange-400">
-            <span class="mr-2">•</span>
-            <span class="text-sm font-bold">TECNOLOGÍAS MODERNAS</span>
+          <h3 class="text-2xl font-bold fredoka text-purple mb-4">DISEÑO CREATIVO</h3>
+          <p class="text-gray-300 mb-4">Creamos diseños únicos y originales que reflejan tu personalidad y estilo, con un toque de magia y mucha creatividad.</p>
+          <div class="flex items-center text-cyan-400">
+            <span class="mr-2">✨</span>
+            <span class="text-sm font-bold">CREATIVIDAD SIN LÍMITES</span>
           </div>
           </div>
         
         <!-- Service 2 -->
-        <div class="power-card p-8 rounded-2xl group">
-          <div class="power-icon mb-6">
-            <div class="text-white font-bold text-xl">📱</div>
+        <div class="shine-card p-8 rounded-2xl group">
+          <div class="shine-icon mb-6">
+            <div class="text-white font-bold text-xl emoji-bounce">🎉</div>
           </div>
           <img 
-            src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="Aplicaciones móviles" 
+            src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" 
+            alt="Eventos y celebraciones" 
             class="w-full h-48 object-cover rounded-lg mb-6"
           />
-          <h3 class="text-2xl font-bold poppins text-light-blue mb-4">APPS MÓVILES</h3>
-          <p class="text-gray-300 mb-4">Aplicaciones nativas e híbridas para iOS y Android que brindan experiencias excepcionales.</p>
-              <div class="flex items-center text-orange-300">
-            <span class="mr-2">•</span>
-            <span class="text-sm font-bold">MULTIPLATAFORMA</span>
+          <h3 class="text-2xl font-bold fredoka text-light-purple mb-4">EVENTOS MÁGICOS</h3>
+          <p class="text-gray-300 mb-4">Organizamos eventos inolvidables llenos de diversión, color y momentos especiales que quedarán en la memoria para siempre.</p>
+          <div class="flex items-center text-cyan-500">
+            <span class="mr-2">🎊</span>
+            <span class="text-sm font-bold">MOMENTOS INOLVIDABLES</span>
           </div>
       </div>
       
         <!-- Service 3 -->
-        <div class="power-card p-8 rounded-2xl group">
-          <div class="power-icon mb-6">
-            <div class="text-white font-bold text-xl">☁️</div>
+        <div class="shine-card p-8 rounded-2xl group">
+          <div class="shine-icon mb-6">
+            <div class="text-white font-bold text-xl emoji-bounce">💫</div>
           </div>
           <img 
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="Soluciones en la nube" 
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" 
+            alt="Consultoría de estilo" 
             class="w-full h-48 object-cover rounded-lg mb-6"
           />
-          <h3 class="text-2xl font-bold poppins text-sky mb-4">CLOUD SOLUTIONS</h3>
-          <p class="text-gray-300 mb-4">Migración y gestión de infraestructura en la nube para mayor escalabilidad y seguridad.</p>
-              <div class="flex items-center text-orange-400">
-            <span class="mr-2">•</span>
-            <span class="text-sm font-bold">ESCALABILIDAD TOTAL</span>
+          <h3 class="text-2xl font-bold fredoka text-pink mb-4">CONSULTORÍA DE ESTILO</h3>
+          <p class="text-gray-300 mb-4">Te ayudamos a encontrar tu estilo único y a brillar con confianza en cada situación, con consejos personalizados y divertidos.</p>
+          <div class="flex items-center text-cyan-400">
+            <span class="mr-2">🌟</span>
+            <span class="text-sm font-bold">ESTILO PERSONALIZADO</span>
           </div>
           </div>
           
         <!-- Service 4 -->
-        <div class="power-card p-8 rounded-2xl group">
-          <div class="power-icon mb-6">
-            <div class="text-white font-bold text-xl">📊</div>
+        <div class="shine-card p-8 rounded-2xl group">
+          <div class="shine-icon mb-6">
+            <div class="text-white font-bold text-xl emoji-bounce">🎭</div>
           </div>
           <img 
-            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="Marketing digital" 
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80" 
+            alt="Talleres creativos" 
             class="w-full h-48 object-cover rounded-lg mb-6"
           />
-          <h3 class="text-2xl font-bold poppins text-blue mb-4">MARKETING DIGITAL</h3>
-          <p class="text-gray-300 mb-4">Estrategias digitales integrales para aumentar tu presencia online y generar más leads.</p>
-              <div class="flex items-center text-orange-400">
-            <span class="mr-2">•</span>
-            <span class="text-sm font-bold">RESULTADOS MEDIBLES</span>
+          <h3 class="text-2xl font-bold fredoka text-purple mb-4">TALLERES CREATIVOS</h3>
+          <p class="text-gray-300 mb-4">Talleres divertidos donde puedes aprender nuevas habilidades, expresar tu creatividad y conocer gente increíble.</p>
+          <div class="flex items-center text-cyan-400">
+            <span class="mr-2">🎨</span>
+            <span class="text-sm font-bold">APRENDER DIVIRTIÉNDOSE</span>
           </div>
           </div>
           
         <!-- Service 5 -->
-        <div class="power-card p-8 rounded-2xl group">
-          <div class="power-icon mb-6">
-            <div class="text-white font-bold text-xl">🔒</div>
+        <div class="shine-card p-8 rounded-2xl group">
+          <div class="shine-icon mb-6">
+            <div class="text-white font-bold text-xl emoji-bounce">📸</div>
           </div>
           <img 
-            src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2015&q=80" 
-            alt="Ciberseguridad" 
+            src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80" 
+            alt="Sesiones de fotos" 
             class="w-full h-48 object-cover rounded-lg mb-6"
           />
-          <h3 class="text-2xl font-bold poppins text-light-blue mb-4">CIBERSEGURIDAD</h3>
-          <p class="text-gray-300 mb-4">Protección integral de datos y sistemas contra amenazas digitales y ciberataques.</p>
-              <div class="flex items-center text-orange-300">
-            <span class="mr-2">•</span>
-            <span class="text-sm font-bold">PROTECCIÓN TOTAL</span>
+          <h3 class="text-2xl font-bold fredoka text-light-purple mb-4">SESIONES DE FOTOS</h3>
+          <p class="text-gray-300 mb-4">Capturamos momentos especiales con un estilo único y divertido, creando recuerdos que brillarán para siempre.</p>
+          <div class="flex items-center text-cyan-500">
+            <span class="mr-2">📷</span>
+            <span class="text-sm font-bold">RECUERDOS ÚNICOS</span>
           </div>
           </div>
           
         <!-- Service 6 -->
-        <div class="power-card p-8 rounded-2xl group">
-          <div class="power-icon mb-6">
-            <div class="text-white font-bold text-xl">🔧</div>
+        <div class="shine-card p-8 rounded-2xl group">
+          <div class="shine-icon mb-6">
+            <div class="text-white font-bold text-xl emoji-bounce">🎁</div>
           </div>
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=2134&q=80" 
-            alt="Soporte técnico" 
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80" 
+            alt="Productos especiales" 
             class="w-full h-48 object-cover rounded-lg mb-6"
           />
-          <h3 class="text-2xl font-bold poppins text-sky mb-4">SOPORTE TÉCNICO</h3>
-          <p class="text-gray-300 mb-4">Mantenimiento y soporte continuo para garantizar el óptimo funcionamiento de tus sistemas.</p>
-              <div class="flex items-center text-orange-400">
-            <span class="mr-2">•</span>
-            <span class="text-sm font-bold">SOPORTE 24/7</span>
+          <h3 class="text-2xl font-bold fredoka text-pink mb-4">PRODUCTOS ESPECIALES</h3>
+          <p class="text-gray-300 mb-4">Ofrecemos productos únicos y especiales que te ayudarán a brillar y expresar tu personalidad de manera auténtica.</p>
+          <div class="flex items-center text-cyan-400">
+            <span class="mr-2">💎</span>
+            <span class="text-sm font-bold">PRODUCTOS ÚNICOS</span>
           </div>
           </div>
         </div>
       </div>
     </section>
 
-  <!-- TESTIMONIALS - MODERN DESIGN -->
-  <section class="power-bg py-32 relative">
+  <!-- TESTIMONIALS - FUN DESIGN -->
+  <section class="shine-bg py-32 relative">
       <div class="max-w-7xl mx-auto px-6">
       <div class="text-center mb-20">
-        <h2 class="text-6xl font-black poppins text-light-blue float-animation mb-8">LO QUE DICEN NUESTROS CLIENTES</h2>
-        <div class="w-32 h-1 bg-gradient-to-r from-orange-400 to-orange-500 mx-auto"></div>
+        <h2 class="text-6xl font-black fredoka text-light-purple bounce-animation mb-8">LO QUE DICEN NUESTROS CLIENTES</h2>
+        <div class="w-32 h-1 bg-gradient-to-r from-cyan-400 to-cyan-600 mx-auto"></div>
             </div>
       
-      <!-- Modern testimonials -->
+      <!-- Fun testimonials -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        <div class="power-card p-8 rounded-2xl">
+        <div class="shine-card p-8 rounded-2xl">
               <div class="flex items-center mb-6">
                 <img 
-              class="w-16 h-16 rounded-full border-4 border-blue-400 mr-4" 
+              class="w-16 h-16 rounded-full border-4 border-cyan-400 mr-4" 
               src="https://randomuser.me/api/portraits/women/32.jpg" 
-              alt="María González"
+              alt="Sofía Martínez"
             />
             <div>
-              <h4 class="font-bold poppins text-blue text-lg">Sofía Martínez</h4>
-              <p class="text-orange-400 text-sm">CEO TechStart</p>
+              <h4 class="font-bold fredoka text-purple text-lg">Sofía Martínez</h4>
+              <p class="text-cyan-400 text-sm">Cliente Feliz</p>
                 </div>
               </div>
-          <p class="text-gray-300 italic">"Kiatma transformó completamente nuestra presencia digital. Su equipo es excepcional y los resultados superaron nuestras expectativas."</p>
+          <p class="text-gray-300 italic">"Kiatma transformó mi evento en algo mágico. La creatividad y diversión que aportaron fue increíble. ¡Totalmente recomendado!"</p>
               <div class="flex mt-4">
-            <span class="text-yellow-400">★★★★★</span>
+            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
               </div>
             </div>
 
-        <div class="power-card p-8 rounded-2xl">
+        <div class="shine-card p-8 rounded-2xl">
               <div class="flex items-center mb-6">
                 <img 
-              class="w-16 h-16 rounded-full border-4 border-sky-400 mr-4" 
+              class="w-16 h-16 rounded-full border-4 border-teal-400 mr-4" 
               src="https://randomuser.me/api/portraits/men/42.jpg" 
-              alt="Carlos Mendoza"
+              alt="Diego Rodríguez"
             />
             <div>
-              <h4 class="font-bold poppins text-light-blue text-lg">Diego Rodríguez</h4>
-              <p class="text-orange-400 text-sm">Director de IT</p>
+              <h4 class="font-bold fredoka text-light-purple text-lg">Diego Rodríguez</h4>
+              <p class="text-cyan-400 text-sm">Cliente Satisfecho</p>
                 </div>
               </div>
-          <p class="text-gray-300 italic">"El desarrollo de nuestra aplicación móvil fue impecable. Kiatma entregó exactamente lo que necesitábamos en tiempo récord."</p>
+          <p class="text-gray-300 italic">"Los talleres de Kiatma son pura diversión. Aprendí mucho y me divertí aún más. Una experiencia única y especial."</p>
               <div class="flex mt-4">
-            <span class="text-yellow-400">★★★★★</span>
+            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
               </div>
             </div>
 
-        <div class="power-card p-8 rounded-2xl">
+        <div class="shine-card p-8 rounded-2xl">
               <div class="flex items-center mb-6">
                 <img 
-              class="w-16 h-16 rounded-full border-4 border-blue-500 mr-4" 
+              class="w-16 h-16 rounded-full border-4 border-cyan-500 mr-4" 
               src="https://randomuser.me/api/portraits/women/24.jpg" 
-              alt="Ana Rodríguez"
+              alt="Lucía Fernández"
             />
             <div>
-              <h4 class="font-bold poppins text-sky text-lg">Lucía Fernández</h4>
-              <p class="text-orange-400 text-sm">Emprendedora</p>
+              <h4 class="font-bold fredoka text-pink text-lg">Lucía Fernández</h4>
+              <p class="text-cyan-400 text-sm">Cliente Encantada</p>
             </div>
           </div>
-          <p class="text-gray-300 italic">"Gracias a las estrategias de marketing digital de Kiatma, nuestras ventas online se triplicaron en 6 meses."</p>
+          <p class="text-gray-300 italic">"La sesión de fotos con Kiatma fue increíble. Me ayudaron a sentirme segura y a brillar. Los resultados fueron espectaculares."</p>
           <div class="flex mt-4">
-            <span class="text-yellow-400">★★★★★</span>
+            <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
           </div>
         </div>
       </div>
       </div>
     </section>
 
-  <!-- CONTACT FOOTER - MODERN DESIGN -->
-  <footer id="contacto" class="bg-slate-900 text-white py-20 border-t-2 border-orange-500">
+  <!-- CONTACT FOOTER - FUN DESIGN -->
+  <footer id="contacto" class="bg-slate-900 text-white py-20 border-t-2 border-cyan-600">
     <div class="max-w-7xl mx-auto px-6">
       <div class="grid md:grid-cols-3 gap-12 mb-16">
         
         <!-- Company Info -->
         <div class="md:col-span-1">
           <div class="flex items-center mb-8">
-            <div class="power-icon mr-4 pulse-blue">
-              <div class="text-white font-bold text-xl">⚡</div>
+            <div class="shine-icon mr-4 pulse-purple">
+              <div class="text-white font-bold text-xl emoji-bounce">✨</div>
             </div>
-            <h3 class="text-4xl font-bold poppins text-white">KIATMA</h3>
+            <h3 class="text-4xl font-bold fredoka text-white-title">KIATMA</h3>
           </div>
           <p class="text-gray-300 mb-8 text-lg leading-relaxed">
-            Tu socio tecnológico en Mar del Plata. Ofrecemos soluciones digitales innovadoras, desarrollo web, apps móviles y todo lo que necesitas para transformar tu negocio.
+Tu empresa de confianza para crear momentos mágicos y experiencias inolvidables. Hacemos que cada día sea especial con creatividad, diversión y mucho brillo.
           </p>
           <div class="flex space-x-4">
-            <div class="w-12 h-12 power-card rounded-full flex items-center justify-center">
-              <span class="text-purple-400">💻</span>
+            <div class="w-12 h-12 shine-card rounded-full flex items-center justify-center">
+              <span class="text-cyan-400 emoji-bounce">✨</span>
             </div>
-            <div class="w-12 h-12 power-card rounded-full flex items-center justify-center">
-              <span class="text-purple-300">🚀</span>
+            <div class="w-12 h-12 shine-card rounded-full flex items-center justify-center">
+              <span class="text-cyan-500 emoji-bounce">🎨</span>
             </div>
-            <div class="w-12 h-12 power-card rounded-full flex items-center justify-center">
-              <span class="text-purple-500">⚙️</span>
+            <div class="w-12 h-12 shine-card rounded-full flex items-center justify-center">
+              <span class="text-cyan-600 emoji-bounce">🎉</span>
             </div>
           </div>
         </div>
         
         <!-- Contact Info -->
         <div>
-          <h4 class="text-2xl font-bold poppins text-light-blue mb-8">CONTACTO DIRECTO</h4>
+          <h4 class="text-2xl font-bold fredoka text-light-purple mb-8">CONTACTO DIRECTO</h4>
           <div class="space-y-6 text-gray-300">
             <div class="flex items-start space-x-4">
-              <div class="power-icon">
+              <div class="shine-icon">
                 <div class="text-white text-sm">📍</div>
               </div>
-              <span>Urquia 3222, Mar Del Plata</span>
+              <span>Zeballos 5866</span>
             </div>
             <div class="flex items-center space-x-4">
-              <div class="power-icon">
+              <div class="shine-icon">
                 <div class="text-white text-sm">📞</div>
               </div>
-              <a href="tel:+5491164737517" class="hover:text-orange-400 transition text-lg font-bold poppins">+5491164737517</a>
+              <a href="tel:+5491164737517" class="hover:text-cyan-400 transition text-lg font-bold fredoka">+5491164737517</a>
             </div>
             <div class="flex items-center space-x-4">
-              <div class="power-icon">
+              <div class="shine-icon">
                 <div class="text-white text-sm">✉️</div>
               </div>
-              <a href="mailto:info@kiatma.com.ar" class="hover:text-orange-400 transition">info@kiatma.com.ar</a>
+              <a href="mailto:info@kiatma.com" class="hover:text-cyan-400 transition">info@kiatma.com</a>
             </div>
             <div class="flex items-center space-x-4">
-              <div class="power-icon">
+              <div class="shine-icon">
                 <div class="text-white text-sm">🏢</div>
               </div>
-              <span>CUIL: 20442648981</span>
+              <span>CUIL: 20447220157</span>
             </div>
           </div>
         </div>
         
         <!-- Operating Hours -->
         <div>
-          <h4 class="text-2xl font-bold poppins text-orange-400 mb-8">HORARIOS DE ATENCIÓN</h4>
+          <h4 class="text-2xl font-bold fredoka text-cyan-400 mb-8">HORARIOS DE ATENCIÓN</h4>
           <div class="space-y-4 text-gray-300">
-            <div class="power-card p-4 rounded-lg">
-              <p class="font-bold text-orange-400 mb-2 poppins">OFICINA</p>
+            <div class="shine-card p-4 rounded-lg">
+              <p class="font-bold text-cyan-400 mb-2 fredoka">OFICINA</p>
               <p>Lun-Vie: 09:00-18:00</p>
+              <p>Sáb: 10:00-14:00</p>
             </div>
-            <div class="power-card p-4 rounded-lg">
-              <p class="font-bold text-orange-300 mb-2 poppins">SOPORTE TÉCNICO</p>
-              <p>24/7 Disponible</p>
-              <p>Consultas urgentes</p>
+            <div class="shine-card p-4 rounded-lg">
+              <p class="font-bold text-cyan-500 mb-2 fredoka">EVENTOS</p>
+              <p>Disponible 24/7</p>
+              <p>Para momentos especiales</p>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="border-t-2 border-orange-500 pt-12 text-center">
-        <div class="power-icon mx-auto mb-6 pulse-blue">
-          <div class="text-white font-bold text-xl">🚀</div>
+      <div class="border-t-2 border-cyan-600 pt-12 text-center">
+        <div class="shine-icon mx-auto mb-6 pulse-purple">
+          <div class="text-white font-bold text-xl emoji-bounce">✨</div>
         </div>
-        <p class="text-orange-400 mb-3 text-xl font-bold poppins">KIATMA - SOLUCIONES DIGITALES INNOVADORAS</p>
-        <p class="text-gray-400">© 2024 Todos los derechos reservados | Transformamos tu negocio digitalmente</p>
+        <p class="text-cyan-400 mb-3 text-xl font-bold fredoka">KIATMA - BRILLANDO CON ESTILO Y DIVERSIÓN</p>
+        <p class="text-gray-400">© 2024 Todos los derechos reservados | Crea momentos mágicos</p>
       </div>
     </div>
   </footer>
 
-  <!-- MODERN WHATSAPP BUTTON -->
+  <!-- FUN WHATSAPP BUTTON -->
   <a 
-    href="https://wa.me/5491164737517?text=¡Hola%20Kiatma!%20💻%20Me%20interesa%20conocer%20sus%20servicios%20digitales" 
+    href="https://wa.me/5491164737517?text=¡Hola%20Kiatma!%20✨%20Me%20interesa%20conocer%20sus%20servicios%20mágicos" 
     target="_blank"
-    class="fixed bottom-8 right-8 whatsapp-modern text-white p-6 rounded-full shadow-2xl z-50 transition-all duration-300 hover:scale-110 group"
+    class="fixed bottom-8 right-8 whatsapp-sparkle text-white p-6 rounded-full shadow-2xl z-50 transition-all duration-300 hover:scale-110 group"
     aria-label="Contactar por WhatsApp"
   >
     <div class="relative">
       <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.488"/>
       </svg>
-      <!-- Modern notification -->
-      <div class="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full flex items-center justify-center text-xs font-bold pulse-blue">
-        💻
+      <!-- Fun notification -->
+      <div class="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-cyan-400 to-cyan-600 rounded-full flex items-center justify-center text-xs font-bold pulse-purple">
+        ✨
       </div>
     </div>
   </a>
